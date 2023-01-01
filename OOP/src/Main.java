@@ -37,5 +37,16 @@ public class Main {
         // 필드 호출과 동일하게 도트연산자를 통해 Cat 클래스에 있는 meow 메소드 내부를 실행한다.
         cat.meow();
 
+
+        // 목표 : 필드를 사용한 인스턴스 메소드를 호출해보자
+        Cat instanceCat = new Cat();
+
+        // 필드의 초기값을 설정하지 않았기 때문에 null(String)이 기본 값으로 설정되어 있다.
+        instanceCat.name = "루루";
+
+        // 필드 (name)를 사용한 인스턴스 메소드를 호출해보자!
+        instanceCat.eat();
+
+
     }
 }
