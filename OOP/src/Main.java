@@ -29,5 +29,13 @@ public class Main {
         System.out.printf("강아지의 이름: %s\n", dog.name);
         System.out.printf("루루의 나이: %d\n", dog.age);
 
+        // 목표 : Cat 클래스의 인스턴스 메소드를 호출해봅시다.
+
+        // 우선 Cat 클래스를 객체로 만든다.
+        Cat cat = new Cat();
+
+        // 필드 호출과 동일하게 도트연산자를 통해 Cat 클래스에 있는 meow 메소드 내부를 실행한다.
+        cat.meow();
+
     }
 }
