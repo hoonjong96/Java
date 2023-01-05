@@ -48,5 +48,18 @@ public class Main {
         instanceCat.eat();
 
 
+        // 정사각형 클래스 실습
+        // 출력 예 : 한 변의 길이가 4인 정사각형의 넓이 : 16
+
+        // 객체를 먼저 만들어보자
+        Square s1 = new Square();
+
+        s1.length = 4;
+
+        s1.area();
+
+        s1.printArea();
+
+
     }
 }
