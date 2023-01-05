@@ -1,6 +1,7 @@
 package Class;
 
 import Constructor.Goroke;
+import Constructor.Hero;
 import Constructor.Notebook;
 
 /**
@@ -83,5 +84,16 @@ public class Main {
         System.out.println(pizza.str());
         System.out.println(vegatable.str());
         System.out.println(pat.str());
+
+        // 실습3: Constructor Hero
+        Hero ironman = new Hero("아이언맨", 80);
+        Hero tanos = new Hero("타노스", 160);
+        Hero thor = new Hero("토르", 150);
+        Hero groot = new Hero("그루트", 40);
+
+        System.out.println(ironman.str());
+        System.out.println(tanos.str());
+        System.out.println(thor.str());
+        System.out.println(groot.str());
     }
 }
