@@ -54,11 +54,11 @@ public class Main {
         // 객체를 먼저 만들어보자
         Square s1 = new Square();
 
+        // 필드 값을 한 변의 길이 4로 지정
         s1.length = 4;
 
-        s1.area();
-
-        s1.printArea();
+        // 바로 출력해보자
+        System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d", s1.length, s1.area());
 
 
     }

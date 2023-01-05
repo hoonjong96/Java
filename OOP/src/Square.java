@@ -8,14 +8,9 @@
 // Square Class
 public class Square {
     int length;
-    int area;
 
-    void area() {
-        area = length * length;
+    // 함수 부분 공부가 더 필요할 것 같다.( 리턴을 아직 헷갈려하는 중)
+    int area() {
+        return length * length;
     }
-
-    void printArea() {
-        System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d", length, area);
-    }
-
 }
