@@ -1,5 +1,6 @@
 package Class;
 
+import Constructor.Goroke;
 import Constructor.Notebook;
 
 /**
@@ -51,7 +52,6 @@ public class Main {
         // 필드 (name)를 사용한 인스턴스 메소드를 호출해보자!
         instanceCat.eat();
 
-
         // 정사각형 클래스 실습
         // 출력 예 : 한 변의 길이가 4인 정사각형의 넓이 : 16
 
@@ -75,5 +75,13 @@ public class Main {
         System.out.printf("저의 맥북의 이름은 %s 이고, 꽤 무거운 %f의 %f인치 이고 %s 색상입니다.\n", macbook.name, macbook.weight, macbook.displaySize, macbook.color);
         System.out.printf("저의 인텔 노트북 이름은 %s 이고, 엄청 무거운 %f의 %f인치 이고 %s 색상입니다.\n", intelNotebook.name, intelNotebook.weight, intelNotebook.displaySize, intelNotebook.color);
 
+        // 실습2: Constructor 고로케†
+        Goroke pizza = new Goroke("피자", 1000);
+        Goroke vegatable = new Goroke("야채", 800);
+        Goroke pat = new Goroke("팥", 500);
+
+        System.out.println(pizza.str());
+        System.out.println(vegatable.str());
+        System.out.println(pat.str());
     }
 }
