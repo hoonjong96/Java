@@ -1,3 +1,5 @@
+package Class;
+
 /**
  * @author jongdroid
  * @email qkr7627@gmail.com
@@ -24,5 +26,7 @@ public class Cat {
     // 필드가 사용된 메소드
     void eat() {
         System.out.printf("우리 %s 는 맨날 먹기만 해요..", name);
+        System.out.println();
     }
+
 }

@@ -1,3 +1,5 @@
+package Class;
+
 /**
  * @author jongdroid
  * @email qkr7627@gmail.com
@@ -5,7 +7,7 @@
  * @desc
  */
 
-// Square Class
+// Class.Square Class
 public class Square {
     int length;
 

@@ -1,3 +1,5 @@
+package Class;
+
 /**
  * @author jongdroid
  * @email qkr7627@gmail.com
@@ -22,5 +24,5 @@ public class Dog {
 }
 
 
-// Dog 클래스에서 만들어둔 이 요소를 메인 클래스나 다른 클래스에서 사용하려면 가장 먼저
+// Class.Dog 클래스에서 만들어둔 이 요소를 메인 클래스나 다른 클래스에서 사용하려면 가장 먼저
 // 객체를 만들어야 한다. -> 메인 클래스 참고
