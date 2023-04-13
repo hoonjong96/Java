@@ -43,7 +43,6 @@ public class Main {
         // 필드 호출과 동일하게 도트연산자를 통해 Class.Cat 클래스에 있는 meow 메소드 내부를 실행한다.
         cat.meow();
 
-
         // 목표 : 필드를 사용한 인스턴스 메소드를 호출해보자
         Cat instanceCat = new Cat();
 
@@ -76,7 +75,7 @@ public class Main {
         System.out.printf("저의 맥북의 이름은 %s 이고, 꽤 무거운 %f의 %f인치 이고 %s 색상입니다.\n", macbook.name, macbook.weight, macbook.displaySize, macbook.color);
         System.out.printf("저의 인텔 노트북 이름은 %s 이고, 엄청 무거운 %f의 %f인치 이고 %s 색상입니다.\n", intelNotebook.name, intelNotebook.weight, intelNotebook.displaySize, intelNotebook.color);
 
-        // 실습2: Constructor 고로케†
+        // 실습2: Constructor 고로케
         Goroke pizza = new Goroke("피자", 1000);
         Goroke vegatable = new Goroke("야채", 800);
         Goroke pat = new Goroke("팥", 500);
